@@ -1,9 +1,12 @@
-function App() {
+import React from 'react';
+import Header from './components/Layout/Header';
+
+const App = () => {
   return (
-    <div>
-      <h2>start of project</h2>
-    </div>
+    <>
+      <Header />
+    </>
   );
-}
+};
 
 export default App;
